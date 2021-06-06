@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(115, 161, 151);
+    text-align: center;
+}
+h1{
+    font-style: italic;
+}
+.car{
+    padding-left:200px;
+}

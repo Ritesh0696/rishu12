@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="survey.css">
+        <title>SURVEY FORM</title>
+
+    </head>
+    <body>
+        <h1 id="title"> SURVEY FORM</h1>
+        <p id="description"> A survey of a Car showroom</p>
+
+        <form id="survey-form">
+        <label id="name" for="name">Name</label><br>
+
+        <input type="text" name="name" id="name" placeholder="Enter your name"><br><br>
+
+        <label id="email" for="email">Email</label><br>
+        <input type="text" name="email" id="email" placeholder="Enter your email"><br><br>
+
+        <label id="number" for="number">Age</label><br>
+        <input type="number" name="number" min="14" max="99"><br><br>
+
+        <label id="dropdown" for="dropdown">Q.Would you like the showroom?</label><br>
+        <select name ="options" id="options">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+         
+        </select>
+        <p>
+            Q.Would you recomend it to you friend?
+        </p>
+        <label for="yes" id="yes">Yes</label>
+        <input type="radio" id="yes" name="yes" value="yes">
+        <label for="No" id="No">No</label>
+        <input type="radio" id="no" name="no" value="no">
+
+        <p> Q.Which car do you like the most in the showroom?</p>
+        <input type="checkbox" id="car1" name="car1">
+        <label for="cars1">Mercedes</label><br>
+        
+        <input type="checkbox" id="car2" name="car2">
+        <label for="cars2" id="cars2">BMW</label><br>
+
+        
+        <input type="checkbox" id="car3" name="car3">
+        <label for="cars3">Audi</label><br>
+
+        <p> Any Suggestions</p>
+        <textarea rows="10" cols="40" id="Suggestions" name="Suggestions" placeholder="give some suggestions"></textarea><br><br>  
+        
+        <input type="button" value="submit">
+
+
+        
+        </form>
+    </body>
